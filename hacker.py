@@ -1,4 +1,8 @@
-def hacked():
-    print("Hello...Eee")
+def hacked(a):
+    if a==1:
+        return("Hello...Eee")
+    else:
+        return("fool")
 
-hacked()
+
+print(hacked(1))
